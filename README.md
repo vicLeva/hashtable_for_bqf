@@ -1,7 +1,9 @@
 # Install
 
++ build and install https://github.com/martinus/unordered_dense (available if cloned recursively)
+
 ``` bash
-git clone
+git clone git@github.com:vicLeva/hashtable_for_bqf.git
 cd hashtable_for_bqf
 g++ main.cpp additionnal_methods.cpp -o main -I<unordered_dense_include_dir>
 ```
